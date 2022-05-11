@@ -9,10 +9,11 @@ import {React, Component, useState} from "./CONST";
 // import UseCallbackPage from "./pages/UseCallbackPage";
 // import ExamplePage from "./pages/ExamplePage";
 // import ContextPage from "./pages/ContextPage";
-import SetStatePage from "./pages/SetStatePage";
+// import SetStatePage from "./pages/SetStatePage";
 // import RefPage from "./pages/RefPage";
 // import SuspensePage from "./pages/SuspensePage";
-import DiffPage from "./pages/DiffPage";
+// import DiffPage from "./pages/DiffPage";
+import IfKeyContainsNaN from "./pages/IfKeyContainsNaN";
 // import ClassFunctionComponent from "./pages/ClassFunctionComponent";
 // import UseReducerPage from "./pages/UseReducerPage";
 
@@ -32,7 +33,8 @@ export default function App(props) {
       {/* <RefPage /> */}
       {/* <SuspensePage /> */}
 
-      <DiffPage />
+      {/* <DiffPage /> */}
+      <IfKeyContainsNaN />
 
       {/* <ClassFunctionComponent /> */}
       {/* <UseReducerPage /> */}

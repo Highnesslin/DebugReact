@@ -3,13 +3,13 @@
 // import * as ReactDOM from "react-dom";
 
 import { React, ReactDOM } from './CONST';
+import ExamplePage from './pages/ExamplePage';
 
 import './index.css';
 
-import App from './App';
-
-debugger;
-ReactDOM.render(<App />, document.getElementById('root'));
+const entry = <ExamplePage />
+debugger
+ReactDOM.render(entry, document.getElementById('root'));
 
 // console.log("React", React.version); //sy-log
 
